@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    flex-flow: column wrap;
+    
+    background-color: #030432;
+    color: #FFFFFF;
+    font-family: "Mako", sans-serif;
+}
+
+nav{
+    overflow: hidden;
+    background-color: #0E285C;
+}
+nav ul{
+    display: flex;
+    flex-flow: wrap row;
+    list-style: none;
+    gap: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 110%;
+    padding:14px 16px;
+}
+ nav a:hover{
+    background-color: #fdf8da;
+    color: #020080;
+}
+.active{
+    color:#2d18ea;
+    background-color: #F1D089;
+}
+main{
+    width: 80%;
+    background-color: #0E285C;
+    align-self: center;
+    margin: auto;
+    padding: 1em;
+    border-radius: 2%;
+}
+main p{
+    padding-left: 5em;
+}
+h1{
+    color: #F2A249;
+    text-align: center;
+}
+h2{
+    color: #F2A249;
+}
+footer{
+    position: relative;
+    text-align: center;
+    color: #9297c0;
+    font-size: 80%;
+}
+form{
+    margin-left: 5em;
+}
+a{
+    color: #ffde70;
+}
+#submit{
+    float: right;
+    margin-right: 2em;
+}
+#hsfi{
+    width: 200px;
+    float: right;
+    height: auto;
+    margin: 2em;
+}
+#certif{
+    float: left;
+    width: 75px;
+    height: auto;
+    margin: 1em;
+}
+#rj{
+    float: right;
+    width: 200px;
+    height: auto;
+    margin: 1.5em;
+}
+#MyName{
+    color: #e4f3ff;
+    font-size: 70%;
+    margin: 10px;
+}
